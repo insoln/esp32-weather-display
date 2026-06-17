@@ -1,0 +1,21 @@
+# Build artifacts
+.pio/
+.vscode/
+*.o
+*.a
+
+# Secrets — copy secrets.h.example → secrets.h and fill in your values
+include/secrets.h
+
+# Generated filesystem images (large binaries)
+data/bg/
+tools/bg_raw/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
