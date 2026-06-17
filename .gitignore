@@ -7,8 +7,7 @@
 # Secrets — copy secrets.h.example → secrets.h and fill in your values
 include/secrets.h
 
-# Generated filesystem images (large binaries)
-data/bg/
+# Raw AI-generated PNGs (large, not needed in repo)
 tools/bg_raw/
 
 # Python
